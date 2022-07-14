@@ -153,7 +153,7 @@ nav ul li a:hover{
     margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
-        height: 100px;
+        height:100px;
         width: 100px;
 }
 
@@ -189,6 +189,7 @@ nav ul li a:hover{
     border-radius: 6px;
     margin-left:5px;
 }
+
 
 #fixed_content{
     width: 100%;
