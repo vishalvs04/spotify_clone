@@ -190,9 +190,9 @@ nav ul li a:hover{
     margin-left:5px;
 }
 
-#your_fav{
-    display:flex;
-    
+.song_pics{
+    height:100px;
+    width:100px:
 }
 
 #fixed_content{
