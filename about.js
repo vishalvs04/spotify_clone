@@ -15,7 +15,7 @@ const getDeviceType = () => {
 let device_type = getDeviceType();
 if (device_type == "desktop") {
   let link_sheet = document.getElementById("styles");
-  link_sheet.href = "./styles.css";
+  link_sheet.href = "./style.css";
 } else if (device_type == "mobile" || device_type == "tablet") {
   let link_sheet = document.getElementById("styles");
   link_sheet.href = "./mobile.css";
