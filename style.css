@@ -233,6 +233,15 @@ nav ul li a:hover{
     color:antiquewhite;
 }
 
+.lastcont {
+    text-align: center;
+    width:50%;
+    font-size: 16px;
+    background-color: darkslategray;
+    margin: 10px 25%;
+    border-radius: 10px;
+}
+
 
 .pic{
     display:flex;
