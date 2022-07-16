@@ -300,6 +300,11 @@ if (device_type=='desktop'){
 else if(device_type=='mobile' || device_type=='tablet'){
   let link_stylesheet=document.getElementById('styles')
   link_stylesheet.href="./mobile.css"
+  let icons=document.getElementsByClassName('icons')
+  for(let i=0;i<icons.length;i++){
+    icons[i].classList.remove('fa-2x');
+    icons[i].classList.add('fa-xs');
+  }
     display_songs();
     function display_songs() {
       //populating Trending section
