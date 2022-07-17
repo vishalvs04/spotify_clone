@@ -269,9 +269,6 @@ if (device_type == "desktop") {
   let song_id = 0;
 
   document.getElementById("next").addEventListener("click", () => {
-    current_playlist.addEventListener("change", () => {
-      console.log("changed");
-    });
     if (song_id < current_playlist.length) {
       if (song_id == current_playlist.length - 1) {
         song_id = 0;
