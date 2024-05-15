@@ -21,7 +21,7 @@ const getDeviceType = () => {
   return "desktop";
 };
 let device_type = getDeviceType();
-console.log(device_type);
+// console.log(device_type);
 if (device_type == "desktop") {
   current_playlist = songs;
   let link_sheet = document.getElementById("styles");
